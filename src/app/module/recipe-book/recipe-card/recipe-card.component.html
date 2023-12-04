@@ -1,0 +1,23 @@
+
+<mat-card class="recipe-card mb-5" HighlightDirective>
+    <mat-card-header>
+      <!-- <div mat-card-avatar class="example-header-image"></div> -->
+      <mat-card-title>{{recipes.name | recipeNameFormat}}</mat-card-title>
+      <mat-card-subtitle> {{recipes.category}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{recipes.image}}" alt="Photo of a Shiba Inu" height="225px">
+    <mat-card-content>
+      <p>
+        {{recipes.instructions | recipeingredientsFormat}}..
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-icon-button color="warn" (click)="toggleFavorite(recipes.id)">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button color="primary" (click)="deleteRecipe(recipes.id)">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button mat-raised-button color="primary" (click)="showDetails(recipes)"><mat-icon>info_i</mat-icon>View</button>
+    </mat-card-actions>
+  </mat-card>

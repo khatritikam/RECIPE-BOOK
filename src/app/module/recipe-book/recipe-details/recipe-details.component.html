@@ -1,0 +1,37 @@
+<div class="bg-danger detail-container">
+    <div class="p-3">
+        <h1 class="text-light text-center fw-bold fs-1 text-uppercase">Recipe Book</h1>
+        <h1 class="text-light text-center">"Cooking is all about people. Food is maybe the only universal thing that really has the power to bring everyone together. <br> No matter what culture, everywhere around the world, people get together to eat."</h1>
+    </div>
+    <div class="d-flex flex-wrap p-5">
+        <div class="recipe-img">
+            <img src="{{recipe.image}}" alt="" width="100%" height="350px">
+        </div>
+        <div class="recipe-details">
+            <div class="d-flex flex-row justify-content-between recipe-name border-bottom border-2 border-primary">
+                <h1 class="text-light fw-bold fs-1 text-uppercase ">{{recipe.name}}</h1>
+               <div>
+                <button mat-icon-button aria-label="Example icon button with a vertical three dot icon" (click)="editRecipe(recipe)">
+                    <mat-icon class="text-light">edit</mat-icon>
+                </button>
+                <button mat-icon-button aria-label="Example icon button with a vertical three dot icon" (click)="printRecipe()">
+                    <mat-icon class="text-light">printer</mat-icon>
+                </button>
+               </div>
+            </div>
+            <div class="d-flex flex-column">
+                <h1 class="text-light fw-bold">Ingredients</h1>
+                <p class="text-light para">{{recipe.ingredients}}</p>
+            </div>
+            <div class="d-flex flex-column">
+                <h1 class="text-light fw-bold">Instructions</h1>
+                <p class="text-light para">{{recipe.instructions}}</p>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around flex-wrap card-cont">
+        <ng-container *ngFor="let recipe of recipes" class="card-cont">
+            <app-recipe-card [recipes]="recipe" (recipeId)="goToDetailPage(recipes)" class="card-cont"></app-recipe-card>
+        </ng-container>
+    </div>
+</div>

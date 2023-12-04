@@ -1,0 +1,33 @@
+@media print{
+    button{
+        display: none;
+    }
+    .card-cont{
+        display: none;
+    }
+}
+
+.detail-container{
+    margin: 0px auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.recipe-img{
+    width: 43%;
+    height: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 12px 12px 8px rgba(0, 0, 0, 0.1);
+}
+.recipe-details{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 50%;
+}
+.para{
+    text-align: justify;
+}

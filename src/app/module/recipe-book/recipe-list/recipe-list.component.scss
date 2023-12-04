@@ -1,0 +1,52 @@
+.first-block{
+    background-image: url('./../../../../assets/bg-imge.avif');
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+   // align-items: center;
+}
+.card{
+    flex-flow: wrap;
+    border: none;
+}
+.contnir{
+    margin: 0px auto;
+    }
+.search-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0px 5px;
+    outline: none;
+  }
+
+  .icon{
+    background-color: white;
+    padding: 10px;
+    border-left: 0;
+    border: 1px solid #ccc;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+  }
+
+  .card-1{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 45% ;
+  }
+  // app-recipe-card[appHighlight] {
+  //   transition: background-color 0.3s ease;
+  //   cursor: pointer;
+  // }

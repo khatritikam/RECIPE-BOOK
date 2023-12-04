@@ -1,0 +1,178 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "email": "mihirkhatri2597@gmail.com",
+      "password": "Mihir@2597",
+      "confirmPassword": "Mihir@2597",
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "id": 2,
+      "favoriteRecipe": 2
+    }
+  ],
+  "categories": [
+    {
+      "name": "North Indian",
+      "id": 1
+    },
+    {
+      "name": "South Indian",
+      "id": 2
+    },
+    {
+      "name": "Punjabi",
+      "id": 3
+    },
+    {
+      "name": "Bengali",
+      "id": 4
+    },
+    {
+      "name": "Maharashtrian",
+      "id": 5
+    }
+  ],
+  "recipes": [
+    {
+      "name": " Pav Bhaji",
+      "category": "Maharashtrian",
+      "ingredients": "3 cups mixed vegetables (potatoes, peas, carrots, cauliflower, etc.), chopped 2 large onions, finely chopped 3 large tomatoes, chopped 1/2 cup bell peppers, chopped 1/4 cup green beans, chopped 1/4 cup boiled and mashed green peas 4 tablespoons butter 2 tablespoons oil 1 tablespoon ginger-garlic paste 2 tablespoons pav bhaji masala 1 tablespoon red chili powder (adjust to taste) 1 teaspoon turmeric powder Salt to taste 1 tablespoon lemon juice Fresh coriander leaves, chopped for garnish",
+      "instructions": "To make Pav Bhaji, boil 3 cups of mixed veggies, mash them coarsely. In a pan, sauté onions, add ginger-garlic paste, bell peppers, green beans, and tomatoes. Add pav bhaji masala, red chili powder, turmeric, and salt. Mix in mashed veggies and boiled peas. Adjust consistency with water, simmer for 15-20 minutes. Add lemon juice and coriander. For the pav, toast rolls with butter. Serve bhaji with a dollop of butter, chopped onions, and lemon wedge. Enjoy this flavorful Indian street food!",
+      "image": "./../../../../assets/pj.jpg",
+      "id": 1
+    },
+    {
+      "name": "Pithla Bhakri",
+      "category": "Maharashtrian",
+      "ingredients": "For Pithla Bhakri, combine 1 cup besan, temper with mustard seeds, cumin, onions, chilies, and curry leaves in 2 tbsp oil. Add turmeric, red chili powder, salt, and cook until thickened. Garnish with coriander. For Bhakri, mix 2 cups jowar flour with water, shape into balls, flatten into thick discs, cook with a touch of oil. Serve Pithla over warm Bhakris for a hearty Maharashtrian meal.",
+      "instructions": " Pithla Bhakri is a traditional Maharashtrian dish that consists of a gram flour-based curry (Pithla) served with unleavened flatbread (Bhakri). To make Pithla, whisk 1 cup of gram flour (besan) with water to form a smooth batter, ensuring there are no lumps. In a pan, heat 2 tablespoons of oil, add mustard seeds, cumin seeds, asafoetida, chopped onions, green chilies, and curry leaves. Sauté until the onions are golden brown. Pour in the besan batter and stir continuously to avoid lumps. Add turmeric powder, red chili powder, and salt to taste. Cook on low heat, stirring continuously until the mixture thickens and the besan is cooked through. Garnish with fresh coriander leaves.",
+      "image": "./../../../../assets/pb.jpg",
+      "id": 2
+    },
+    {
+      "name": "Aamti",
+      "category": "Maharashtrian",
+      "ingredients": "To prepare Aamti, gather the following ingredients: 1 cup tuvar dal (split pigeon peas), oil for cooking, mustard seeds, cumin seeds, a pinch of asafoetida, curry leaves, finely chopped onions, ginger-garlic paste, turmeric, red chili powder, Aamti masala (2 tablespoons), tamarind pulp, jaggery, salt to taste, and fresh coriander for garnishing. For the tempering, you'll need additional mustard seeds, cumin, garlic, curry leaves, and ghee. This flavorful Maharashtrian lentil curry, known for its",
+      "instructions": "Aamti is a flavorful Maharashtrian lentil curry that offers a delightful blend of spices. To prepare Aamti, start by cooking 1 cup of tuvar dal (split pigeon peas) until soft. In a pan, heat oil, add mustard seeds, cumin seeds, asafoetida, curry leaves, and finely chopped onions. Sauté until onions are golden. Add ginger-garlic paste, turmeric, red chili powder, and 2 tablespoons of Aamti masala. Stir well and add tamarind pulp, jaggery, and cooked dal. Season with salt and let it simmer. Prepare a tempering of mustard seeds, cumin, garlic, and curry leaves in ghee, and add to the Aamti. Garnish with fresh coriander. This tangy and spicy lentil curry is often served with steamed rice and is a comforting dish in Maharashtrian cuisine.",
+      "image": "./../../../../assets/aamti.jpg",
+      "id": 3
+    },
+    {
+      "name": "Dal Makhani",
+      "category": "North Indian",
+      "ingredients": " To make Dal Makhani, soak 1 cup black urad dal and 1/4 cup rajma overnight. Cook with salt and turmeric until tender. In a pan, sauté onions, add ginger-garlic paste, tomato puree, and a blend of red chili powder, cumin powder, coriander powder, and garam masala. Combine with the cooked dal, simmer, and enrich with cream, kasuri methi, and butter. Garnish with fresh coriander. This luscious and aromatic Dal Makhani pairs wonderfully with rice or naan, offering a delightful culinary experience.",
+      "instructions": "To prepare Dal Makhani, begin by soaking 1 cup of black urad dal and 1/4 cup of rajma overnight. Cook the soaked lentils with a pinch of salt and turmeric until they are tender. In a separate pan, sauté finely chopped onions until golden brown, then add ginger-garlic paste and tomato puree. Cook until the mixture releases oil. Introduce a combination of red chili powder, cumin powder, coriander powder, and garam masala, stirring well. Merge this rich masala with the cooked dal and rajma, allowing it to simmer on low heat for a while. Finish the dish by adding cream, crushed kasuri methi (dried fenugreek leaves), and a generous dollop of butter. Garnish with freshly chopped coriander for a burst of freshness. Serve this creamy Dal Makhani with rice or naan, indulging in its comforting and flavorful profile.",
+      "image": "./../../../../assets/dm.png",
+      "id": 4
+    },
+    {
+      "name": "Rajma ",
+      "category": "North Indian",
+      "ingredients": "you'll need 1 cup kidney beans, salt, oil or ghee for sautéing, cumin seeds, finely chopped onions, ginger-garlic paste, tomatoes, red chili powder, coriander powder, cumin powder, garam masala, and fresh coriander leaves for garnish. This combination creates a delicious and satisfying dish, perfect for sharing with family and friends.",
+      "instructions": "Begin by soaking 1 cup of kidney beans overnight. Cook the softened rajma with salt until tender. In a separate pan, sauté finely chopped onions in oil or ghee until golden brown, then add ginger-garlic paste and cook until fragrant. Introduce pulpy tomatoes and a mix of red chili powder, coriander powder, cumin powder, and garam masala. Let the spices meld with the rajma, simmering to perfection. Garnish with fresh coriander leaves and serve this aromatic Rajma with steamed rice or naan, offering a wholesome and flavorful dining experience.",
+      "image": "./../../../../assets/rjma.jpg",
+      "id": 5
+    },
+    {
+      "name": "Malai Paneer",
+      "category": "North Indian",
+      "ingredients": "For the ingredients, you'll need 250g paneer, 1 cup thick yogurt, 2 tbsp cream, 1 tbsp besan, 1 tsp ginger-garlic paste, salt, 2 tbsp oil or ghee, cumin seeds, finely chopped onions, 1 cup tomato puree, and spices including red chili powder, coriander powder, and garam masala. This combination creates a rich and indulgent dish that's sure to be a hit at your table.",
+      "instructions": "To prepare Malai Paneer, start by cutting 250 grams of paneer (Indian cottage cheese) into cubes. In a bowl, marinate the paneer cubes with 1 cup of thick yogurt, 2 tablespoons of cream, 1 tablespoon of besan (gram flour), 1 teaspoon of ginger-garlic paste, and salt to taste. Allow the paneer to marinate for at least 30 minutes. In a pan, heat 2 tablespoons of oil or ghee, add cumin seeds, finely chopped onions, and sauté until golden brown. Add 1 cup of tomato puree and cook until the oil separates. Stir in 1 teaspoon each of red chili powder, coriander powder, and garam masala. Add the marinated paneer and let it simmer until the masala coats the paneer well. Finish with a garnish of fresh coriander leaves. Serve this creamy and flavorful Malai Paneer with naan or rice for a delightful meal.",
+      "image": "./../../../../assets/mp.png",
+      "id": 6
+    },
+    {
+      "name": "Hyderabadi Biryani",
+      "category": "South Indian",
+      "ingredients": "For Hyderabadi Biryani, you'll need 500g basmati rice, oil, ghee, whole spices (bay leaves, cardamom, cloves, cinnamon), sliced onions, ginger-garlic paste, green chilies, tomatoes, chicken, biryani masala, red chili powder, yogurt, mint leaves, fried onions, saffron infused in milk, and chopped coriander. Adjust spice levels and ingredients according to personal preference for this iconic and flavorful Indian dish.",
+      "instructions": "To prepare Hyderabadi Biryani, marinate 500g of basmati rice in water for 30 minutes and cook until 70% done. In a separate pan, heat oil and ghee, add whole spices, sliced onions, and sauté until golden. Add ginger-garlic paste, green chilies, and tomatoes, cooking until the tomatoes are soft. Introduce marinated chicken (500g), biryani masala, red chili powder, yogurt, and mint leaves. Cook until the chicken is half-done. In a large pot, layer half of the partially cooked rice, followed by the chicken mixture, and then the remaining rice. Garnish with fried onions, saffron-infused milk, and chopped coriander. Seal the pot and cook on low heat until the rice is fully done and aromatic. Serve this fragrant Hyderabadi Biryani with raita for a delightful meal.",
+      "image": "./../../../../assets/hb.png",
+      "id": 7
+    },
+    {
+      "name": " Kerala Prawn Curry",
+      "category": "South Indian",
+      "ingredients": "For Kerala Prawn Curry, gather 500g cleaned prawns, turmeric, salt, coconut oil, mustard seeds, fenugreek seeds, curry leaves, shallots, green chilies, ginger-garlic paste, tomatoes, red chili powder, coriander powder, thin and thick coconut milk, and chopped coriander. Adjust the spice levels to your liking, and enjoy the rich and coconut-infused taste of this traditional Kerala dish.",
+      "instructions": "To prepare Kerala Prawn Curry, start by marinating 500g of cleaned and deveined prawns with turmeric and salt. In a pan, heat coconut oil and sauté mustard seeds, fenugreek seeds, curry leaves, sliced shallots, and green chilies. Add ginger-garlic paste and cook until the raw aroma fades. Introduce chopped tomatoes and cook until they soften. Mix in turmeric, red chili powder, coriander powder, and salt. Add thin coconut milk and let it simmer. Once the curry base is well-infused, add the marinated prawns and thick coconut milk. Cook until the prawns are tender. Garnish with chopped coriander and serve this aromatic and flavorful Kerala Prawn Curry with steamed rice for a delicious coastal delight.",
+      "image": "./../../../../assets/pc.jpg",
+      "id": 8
+    },
+    {
+      "name": "Fish Molee",
+      "category": "South Indian",
+      "ingredients": "For Fish Molee, you'll need 500g white fish fillets, turmeric, salt, coconut oil, mustard seeds, fenugreek seeds, curry leaves, shallots, green chilies, ginger-garlic paste, tomatoes, red chili powder, thin and thick coconut milk, and chopped coriander. Adjust the spice levels to your liking, and savor the rich coconut-infused flavors of this classic Kerala fish curry.",
+      "instructions": "To prepare Fish Molee, start by marinating 500g of white fish fillets with turmeric and salt. In a pan, heat coconut oil and sauté mustard seeds, fenugreek seeds, curry leaves, sliced shallots, and green chilies. Add ginger-garlic paste and cook until the raw aroma diminishes. Introduce thin coconut milk, chopped tomatoes, turmeric, red chili powder, and salt, letting it simmer until the tomatoes soften. Place the marinated fish fillets into the pan and add thick coconut milk. Cook gently until the fish is cooked through. Garnish with chopped coriander and a drizzle of coconut oil. Serve this fragrant and mildly spiced Fish Molee with steamed rice or appam for a delightful Kerala-style seafood experience.",
+      "image": "./../../../../assets/fm.jpg",
+      "id": 9
+    },
+    {
+      "name": "Prawn Malaikari",
+      "category": "Bengali",
+      "ingredients": "For Prawn Malaikari, gather 500g cleaned prawns, turmeric, salt, coconut oil, mustard seeds, fenugreek seeds, curry leaves, sliced onions, green chilies, ginger-garlic paste, tomatoes, red chili powder, coriander powder, coconut milk (thin and thick), and chopped coriander. Adjust the spice levels according to preference, and relish the rich and creamy coconut flavor that defines this delectable Bengali prawn curry.",
+      "instructions": "To make Prawn Malaikari, begin by marinating 500g of cleaned prawns with turmeric and salt. In a pan, heat coconut oil and sauté mustard seeds, fenugreek seeds, curry leaves, sliced onions, and green chilies until the onions are golden brown. Add ginger-garlic paste and cook until the raw aroma dissipates. Introduce chopped tomatoes and cook until they are soft. Stir in turmeric, red chili powder, coriander powder, and salt. Add coconut milk and let it simmer. Once the base is well-infused, add the marinated prawns and cook until they are tender. Finish by adding thick coconut milk and simmering until the curry thickens. Garnish with chopped coriander and serve this creamy and mildly spiced Prawn Malaikari with steamed rice or appam for a delightful coastal-inspired culinary experience.",
+      "image": "./../../../../assets/pmc.jpg",
+      "id": 10
+    },
+    {
+      "name": "Bhapa Ilish",
+      "category": "Bengali",
+      "ingredients": "For Bhapa Ilish, you'll need 500g hilsa fish fillets, mustard paste, turmeric, salt, green chilies, mustard oil, poppy seed paste, yogurt, green chili paste, banana leaves or aluminum foil for covering, and chopped coriander for garnish. Adjust the spice levels to your liking, and enjoy the unique taste of this Bengali dish that beautifully combines the richness of hilsa fish with the aromatic blend of mustard and poppy seed flavors.",
+      "instructions": "To prepare Bhapa Ilish, start by marinating 500g of hilsa fish fillets with mustard paste, turmeric, salt, green chilies, and mustard oil. Let it marinate for at least 30 minutes. In a separate bowl, mix mustard paste, poppy seed paste, yogurt, green chili paste, mustard oil, turmeric, and salt to form the marinade. Place the marinated fish fillets in a baking dish, pour the marinade over them, and add mustard oil. Cover the dish with banana leaves or aluminum foil and steam it until the fish is cooked and infused with the flavors. Garnish with chopped coriander and serve this aromatic and flavorful Bhapa Ilish with steamed rice for a traditional Bengali culinary delight.",
+      "image": "./../../../../assets/bl.jpg",
+      "id": 11
+    },
+    {
+      "name": "Shukto",
+      "category": "Bengali",
+      "ingredients": "For Shukto, gather a mix of vegetables like bitter gourd, raw banana, drumsticks, sweet potato, etc. For the tempering, use mustard oil, mustard seeds, and fenugreek seeds. The paste includes mustard seeds, poppy seeds, green chilies, and a bit of water. Other ingredients include milk, sugar, salt, and a small amount of ghee. Customize the vegetable selection based on preference, and savor this distinctive Bengali dish that beautifully balances bitter, sweet, and savory notes.",
+      "instructions": "Shukto, a traditional Bengali dish, is prepared by combining various vegetables in a mildly spiced, bitter-sweet curry. Start by chopping a mix of vegetables like bitter gourd, raw banana, drumsticks, sweet potato, and more. In a pan, heat mustard oil and temper it with mustard seeds and fenugreek seeds. Add the chopped vegetables and sauté. In a separate bowl, make a paste using mustard seeds, poppy seeds, green chilies, and a dash of water. Add this paste to the vegetables along with some milk, letting it simmer until the vegetables are tender. In the final stages, add a sprinkle of sugar, salt, and a small amount of ghee. Shukto is typically served as the first course in a Bengali meal, offering a unique medley of flavors and textures.",
+      "image": "./../../../../assets/sutko.png",
+      "id": 12
+    },
+    {
+      "name": "Butter Chicken",
+      "category": "Punjabi",
+      "ingredients": "For Butter Chicken, you'll need 500g boneless chicken, yogurt, ginger-garlic paste, red chili powder, garam masala, salt, oil or ghee, finely chopped onions, tomato puree, cumin, coriander, turmeric, fenugreek leaves, butter, cream, honey or sugar, and fresh coriander for garnish. Adjust the spice levels and sweetness according to your preference, and enjoy this iconic Indian dish that's loved for its velvety texture and flavorful profile.",
+      "instructions": "To make Butter Chicken, start by marinating 500g of boneless chicken pieces with yogurt, ginger-garlic paste, red chili powder, garam masala, and salt. Allow it to marinate for at least 30 minutes. In a pan, heat oil or ghee, sauté finely chopped onions until golden brown, then add tomato puree and cook until the oil separates. Introduce a blend of spices including cumin, coriander, turmeric, and fenugreek leaves. Add the marinated chicken and cook until it's almost done. Finish the dish by adding butter, cream, and a touch of honey or sugar for sweetness. Garnish with fresh coriander and serve this rich and creamy Butter Chicken with naan or rice for a classic and indulgent Indian meal.",
+      "image": "./../../../../assets/bc.png",
+      "id": 13
+    },
+    {
+      "name": "Chole Bhature",
+      "category": "Punjabi",
+      "ingredients": "For Chole Bhature, you'll need 1 cup dried chickpeas, tea bags, bay leaves, salt, oil, cumin seeds, finely chopped onions, ginger-garlic paste, pureed tomatoes, coriander powder, cumin powder, turmeric, red chili powder, garam masala, 2 cups all-purpose flour, yogurt, baking soda, salt, and fresh coriander for garnish. Adjust the spice levels according to your taste, and enjoy this iconic North Indian dish that combines spicy chickpeas with fluffy and deep-fried bhature for a satisfying culinary",
+      "instructions": "To prepare Chole Bhature, start by soaking 1 cup of dried chickpeas overnight. Boil the chickpeas with tea bags, bay leaves, and salt until tender. In a pan, heat oil, add cumin seeds, finely chopped onions, and sauté until golden brown. Add ginger-garlic paste and cook until the raw aroma fades. Introduce pureed tomatoes, followed by spices like coriander powder, cumin powder, turmeric, red chili powder, garam masala, and salt. Cook until the oil separates. Add the boiled chickpeas and simmer until well-cooked and the flavors meld. For the bhature, knead 2 cups of all-purpose flour with yogurt, baking soda, and salt to form a soft dough. Allow it to rest, then roll out small discs and deep-fry until golden. Serve the Chole with hot bhature, garnished with fresh coriander and sliced onions for a delightful North Indian meal.",
+      "image": "./../../../../assets/cb.jpg",
+      "id": 14
+    },
+    {
+      "name": "Sarson da Saag",
+      "category": "Punjabi",
+      "ingredients": "For Sarson da Saag, you'll need a bunch of mustard greens, spinach, and bathua, ghee, finely chopped onions, ginger-garlic paste, red chili powder, coriander powder, turmeric, salt, mustard seeds, garlic, and makki di roti. Adjust the spice levels to your liking and relish this classic Punjabi dish that showcases the earthy richness of mustard greens paired with the rustic charm of cornmeal flatbread.",
+      "instructions": "Sarson da Saag is a traditional Punjabi dish celebrated for its vibrant flavors. Begin by boiling a bunch of mustard greens, spinach, and bathua until tender. Drain and coarsely puree the greens. In a pan, heat ghee and sauté finely chopped onions until golden. Add ginger-garlic paste and cook until the raw aroma fades. Introduce the pureed greens and stir in spices like red chili powder, coriander powder, turmeric, and salt. Simmer the mixture until it thickens. Separately, temper mustard seeds and garlic in ghee and add to the saag. Serve hot with makki di roti (cornmeal flatbread) and a dollop of butter for a wholesome and flavorful Sarson da Saag experience.",
+      "image": "./../../../../assets/saag.jpg",
+      "id": 15
+    }
+  ]
+}

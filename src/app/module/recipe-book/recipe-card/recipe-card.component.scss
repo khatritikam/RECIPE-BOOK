@@ -1,0 +1,39 @@
+.recipe-card{
+  max-width: 400px;
+  // padding: 0.5rem 1.5rem;
+  // width: 25rem;
+  // .dish-img{
+  //   img{
+  //     object-fit: cover;
+  //   }
+  // }
+}
+.wishbtn{
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--color-grey-grade1);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+ // padding: 9px 12px 12px 9px;
+  background: var(--color-white-bg);
+  margin: 0;
+}
+.wishicon{
+  display: inline-flex;
+}
+.bgicon{
+  fill: #c2c2c2;
+}
+mat-card[appHighlight] {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+mat-card[appEnlargeOnHover]:hover {
+  transform: scale(1); 
+}
+.custom-formatted-text {
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+}
