@@ -2,9 +2,24 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
 
+
+Project Overview:
+Developed an Angular web app for recipe management with secure authentication, route guards, and responsive design.
+
+Pages:
+
+Implemented sign-up/sign-in, home, recipe list, detail, and add recipe pages.
+Enabled sorting, filtering, and printing functionalities.
+Created a shared card component with Bootstrap for consistent recipe display.
+Integrated favoriting, editing, and deleting features with @Output properties.
+Tech Stack:
+Angular, Bootstrap, Angular Material, Reactive Forms, @Input, @Output, Directives, Pipes.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+Run `json-server --watch db.json` for a db server. Navigate to `http://localhost:3000/`. The db will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
