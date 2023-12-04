@@ -4,6 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 Project Overview:
+
 Developed an Angular web app for recipe management with secure authentication, route guards, and responsive design.
 
 Pages:
@@ -12,6 +13,8 @@ Implemented sign-up/sign-in, home, recipe list, detail, and add recipe pages.
 Enabled sorting, filtering, and printing functionalities.
 Created a shared card component with Bootstrap for consistent recipe display.
 Integrated favoriting, editing, and deleting features with @Output properties.
+
+
 Tech Stack:
 Angular, Bootstrap, Angular Material, Reactive Forms, @Input, @Output, Directives, Pipes.
 
