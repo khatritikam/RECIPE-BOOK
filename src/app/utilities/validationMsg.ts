@@ -8,7 +8,7 @@ export const validation_msg: { [key: string]: any } = {
             password: {
                 required: 'Your Password is  requied.',
                 minlength: (val: number) => `Password should contain at least ${val} carector. `,
-                pattern: 'Password Pattern be like Jhon@1234'
+                pattern: 'Password Should Contain at least 1 lowercase 1 uppercase 1 number and 1 special character'
             },
             confirmPassword: {
                 required: 'Your Confirm Password is  requied.',

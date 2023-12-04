@@ -22,6 +22,8 @@ Angular, Bootstrap, Angular Material, Reactive Forms, @Input, @Output, Directive
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+Run `npm install -g json-server` install json-server globally then start server
+
 Run `json-server --watch db.json` for a db server. Navigate to `http://localhost:3000/`. The db will automatically reload if you change any of the source files.
 
 ## Code scaffolding

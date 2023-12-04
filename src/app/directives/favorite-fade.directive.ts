@@ -6,7 +6,7 @@ import { Directive, ElementRef, Input, Renderer2 } from '@angular/core';
 export class FavoriteFadeDirective {
   @Input() set appFavoriteFade(fevoriteRecipeId: any) {
     if (fevoriteRecipeId == localStorage.getItem('favoriteRecipe')) {
-      this.renderer.setStyle(this.el.nativeElement, 'opacity', '0.5'); 
+      this.renderer.setStyle(this.el.nativeElement, 'opacity', '0.8'); 
     } else {
       this.renderer.removeStyle(this.el.nativeElement, 'opacity');
     }

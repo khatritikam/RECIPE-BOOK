@@ -23,6 +23,8 @@ export class RecipeCardComponent {
   @HostBinding('class')
   public hostClass = 'app-recipe-card'
 
+  public userFavoriteRecipeId =  localStorage.getItem('favoriteRecipe') ?? 0
+
   constructor(
     private routes:Router
   ){}

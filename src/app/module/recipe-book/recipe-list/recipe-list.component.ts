@@ -63,8 +63,11 @@ getCategory(){
     const search = this.filterFormGroup.get('search')?.value
     const category = this.filterFormGroup.get('category')?.value
     if(search !== '' && category !== ''){
-      this.recipes = this.recipeService.getRecipes().pipe(
-        map(users => users.filter((user:any) => user.category.toLowerCase().includes(category.toLowerCase() && user.name.toLowerCase().includes(search.toLowerCase()))))
+      let categoryFilter = this.recipeService.getRecipes().pipe(
+        map(users => users.filter((user:any) => user.category.toLowerCase().includes(category.toLowerCase())))
+      )
+      this.recipes = categoryFilter.pipe(
+        map(users => users.filter((user:any) => user.name.toLowerCase().includes(search.toLowerCase())))
       )
     }
     if(search !== ''){
@@ -125,11 +128,12 @@ getCategory(){
   }
 
   onFavoriteChange(favoriteId: any) {
+    localStorage.setItem('favoriteRecipe', JSON.stringify(favoriteId))
     this.userService.getUserbyId((localStorage.getItem('userId'))).subscribe((data) => {
       let setToSubmit = data
       setToSubmit['favoriteRecipe'] = favoriteId
       this.userService.updateUserFavoriterecipe(Number(localStorage.getItem('userId')), setToSubmit).subscribe((data) =>{
-        // console.log(data)
+         this.recipes = this.recipeService.getRecipes()
       })
     })
     console.log('Favorite status changed:', favoriteId);

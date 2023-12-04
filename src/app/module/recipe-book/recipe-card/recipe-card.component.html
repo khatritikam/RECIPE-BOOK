@@ -12,8 +12,15 @@
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-icon-button color="warn" (click)="toggleFavorite(recipes.id)">
-        <mat-icon>favorite</mat-icon>
+      <button mat-icon-button color="" (click)="toggleFavorite(recipes.id)" [color]="userFavoriteRecipeId  == recipes.id ? 'warn' : ''" >
+        <mat-icon>
+          <ng-container *ngIf="userFavoriteRecipeId != recipes.id">
+            favorite_outline
+          </ng-container>
+          <ng-container *ngIf="userFavoriteRecipeId == recipes.id">
+            favorite
+          </ng-container>
+        </mat-icon>
       </button>
       <button mat-icon-button color="primary" (click)="deleteRecipe(recipes.id)">
         <mat-icon>delete</mat-icon>

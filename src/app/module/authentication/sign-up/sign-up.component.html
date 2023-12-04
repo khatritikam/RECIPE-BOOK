@@ -33,7 +33,7 @@
                             {{ this.validationMsg.password.required }}
                         </mat-error>
                         <mat-error *ngIf="signUpForm.get('password')?.hasError('minlength')">
-                            {{ this.validationMsg.password.minlength(6) }}
+                            {{ this.validationMsg.password.minlength(8) }}
                         </mat-error>
                         <mat-error *ngIf="signUpForm.get('password')?.hasError('pattern')">
                             {{ this.validationMsg.password.pattern }}
